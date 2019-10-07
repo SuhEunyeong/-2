@@ -1,4 +1,5 @@
 import java.util.HashMap;
+import java.io.*;
 /**
  * Write a description of class FileReader here.
  *
@@ -9,6 +10,17 @@ public class FileReader
 {
     public static void main(String[] args){
         FileReader fin = new FileReader("c:\temp\inputData20191007.txt");
+        try{
+            fin = new FileReader("c:\temp\inputData20191007.txt");
+            int c;
+            while((c = fin.read()) != -1){
+                System.out.print((char)c);
+            }
+            fin.close();
+        }
+        catch(IOException e){
+            System.out.println("입출력 오류");
+        }
         HashMap<String, Integer> h = new HashMap<String, Integer>();
         
     }
