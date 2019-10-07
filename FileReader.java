@@ -2,32 +2,10 @@
 /**
  * Write a description of class FileReader here.
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author (호즈미요시아키(2018315054),야마모토 요시카(2018315051))
+ * @version (2019/10/7)
  */
 public class FileReader
 {
-    // instance variables - replace the example below with your own
-    private int x;
-
-    /**
-     * Constructor for objects of class FileReader
-     */
-    public FileReader()
-    {
-        // initialise instance variables
-        x = 0;
-    }
-
-    /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
-     */
-    public int sampleMethod(int y)
-    {
-        // put your code here
-        return x + y;
-    }
+    
 }
