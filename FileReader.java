@@ -1,4 +1,4 @@
-
+import java.util.HashMap;
 /**
  * Write a description of class FileReader here.
  *
@@ -7,5 +7,9 @@
  */
 public class FileReader
 {
-    
+    public static void main(String[] args){
+        FileReader fin = new FileReader("c:\temp\inputData20191007.txt");
+        HashMap<String, Integer> h = new HashMap<String, Integer>();
+        
+    }
 }
